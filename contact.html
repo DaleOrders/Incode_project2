@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="application.css">
+    </link>
+    <script src="form.js"></script>
+    <title>Contact Page</title>
+</head>
+<main>
+
+    <body>
+        <header>
+            <nav class="flex space-between">
+                <img src="./Assets/logo_blanc.png" alt="white logo">
+                <div>
+                    <a href="#">Accueil</a>
+                    <a href="#">Qui sommes-nous?</a>
+                    <a href="#">Nous contacter</a>
+                </div>
+            </nav>
+
+            <img src="./Assets/logo_mrcoffee.png">
+        </header>
+
+        <section>
+            <h1 class="heading">Dites nous tout !</h1>
+            <form>
+                        <label for="name" class="form_label">Nom*</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <br />
+                        <label for="surname" class="form_label">Prénom*</label><br>
+                        <input type="text" id="surname" name="surname"><br>
+                        <br />
+                        <label for="phone" class="form_label">Téléphone</label><br>
+                        <input type="number" id="phone" name="phone"><br>
+                        <br />
+                        <label for="email" class="form_label">Adresse mail*</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <br />
+                        <label for="message" class="form_label">Message*</label><br>
+                        <input type="text" id="message" name="message" placeholder="Tapez votre message ici"><br>
+                        <button id="myBtn">Envoyer</button>
+            </form>
+        <div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <img src="./Assets/logo_dark.png">
+                    <h2 class="subhead"><strong>MERCI</strong></h2>
+                    <h2 class="subhead"><strong>Votre message a bien été envoyé !</strong></h2><br>
+                    <h5 class="modal-para">Nous essaierons d’y répondre au mieux dans les plus brefs <br>délais. À bientot chez Mr.Coffee</h5>
+                    <button class="close">Fermer</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="heading">On vous attend !</h1>
+            <div class="form">
+                <p class="subhead"><strong>Mr.Coffee</strong></p>
+                <p>15 place Jules Guesde</p>
+                <p>75006 Paris</p><br>
+                <p>Tel : +33 9 46 25 78 45</p>
+                <p>Mail : contact@mr-coffee.com</p>
+            </div>
+            <img src="./assets/carte_contact.png" alt="map image for 15 place Jules Guesde" />
+        </section>
+
+
+
+    </body>
+
+    <footer>
+        <img src="./assets/logo_blanc.png" alt="White Mr.Coffee logo">
+        <div id="footer">
+            <p>Suivez nous sur les réseaux sociaux !</p>
+            <img src="./assets/logo_linkedin.png" alt="Linkedin white logo">
+            <img src="./assets/logo_twitter.png" alt="Twitter white logo">
+            <img src="./assets/logo_facebook.png" alt="Facebook white logo">
+        </div>
+    </footer>
+</main>
+
+</html>
