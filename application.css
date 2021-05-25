@@ -71,7 +71,7 @@ header>img:not(:first-child){
 .container>h2{
 text-transform: uppercase;
 position: absolute;
-top: 70%;
+top: 90%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-weight: 900;
@@ -109,6 +109,17 @@ color:#fff
 
 button{
   margin:50px 180px;
+  height:60px;
+  width:300px;
+  border-radius: 5px;
+  background-color: #6a7b8b;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#index{
+  margin:50px ;
   height:60px;
   width:300px;
   border-radius: 5px;
@@ -245,7 +256,7 @@ h1 {
 
 form:not(button){
   width:90%;
-  margin-left: 400px;
+  margin-left: 30%;
 }
 
 #message{
@@ -269,7 +280,7 @@ button{
 }
 
 input{
-  width:550px;
+  width:50%;
   height:30px;
   background-color: #c4cad0;
   border:none;
@@ -386,6 +397,11 @@ margin:10px;
   .heading {
     font-size: 20px;
   }
+
+  .heading.contact {
+    font-size: 20px;
+    margin-right:5%;
+  }
   .subhead {
     font-size: 12px;
   }
@@ -398,6 +414,21 @@ margin:10px;
 
   .first-col{
     margin:auto 2px;
+  }
+
+  #index{
+    margin:50px 20%;
+  }
+
+  header>img:not(:first-child){
+    margin: 10px 40%;
+  }
+
+}
+
+@media screen and (max-width: 473px){
+  #index{
+    margin:50px 10%;
   }
 
 }
